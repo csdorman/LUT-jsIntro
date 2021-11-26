@@ -21,3 +21,9 @@ console.log(value2);
 
 //A demo comment - adding two numbers
 console.log(value + value);
+
+//Boolean logic
+var open = true;
+console.log(true); //true
+console.log(!true); //false
+console.log(value == 3) //true
