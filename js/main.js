@@ -1,5 +1,8 @@
 
-
+/*Demonstrating a multi-line comment with a single symbol.
+This is good know for longer comments.
+Like this.
+ */
 var hello = "Hello World";
 
 var value = 3;
@@ -12,5 +15,9 @@ var value2 = "3"
 
 //Or you can console.log it
 console.log(hello);
-console.log(value)
-console.log(value2)
+//Check out the difference in color in the console between strings and nums
+console.log(value);
+console.log(value2);
+
+//A demo comment - adding two numbers
+console.log(value + value);
