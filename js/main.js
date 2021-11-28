@@ -80,3 +80,13 @@ console.log(myList)
 console.log(myList[4]) // returns Hello
 //You can even use it to dig into nested arrays
 console.log(myList[5][1]) // returns Me
+
+/*
+Intro to Loops
+ */
+
+var myList2 = [1,2,3,4,5]
+// To loop over items in an array
+for(var i = 0; i < myList2.length; i++) {
+    console.log(myList2[i])
+}
