@@ -40,7 +40,7 @@ if (name !== "John") {
 }
 /* If value is >= 3, I'm cool.
 If value is <= 0, you're cool.
-If value is neither, noone is cool */
+If value is neither, no one is cool */
 if (value >= 3) {
     console.log(name + " is really cool!")
 } else if (value <= 0 ) {
@@ -48,3 +48,35 @@ if (value >= 3) {
 } else {
     console.log("Sorry. Try again")
 }
+
+/*
+If you have a lot of else ifs, you should use a switch statement.
+ */
+switch (value) {
+    case 0:
+        console.log("You have none!" + value)
+        break
+    case 1:
+        console.log("You have one!" + value)
+        break
+    case 2:
+        console.log("You have a couple." + value)
+        break
+    case 3:
+        console.log("You have a trio!" + value)
+        break
+    default:
+        console.log("Invalid value!")
+}
+
+/*
+Arrays
+An array is a list of zero or more items.
+Items can be strings, numbers, other arrays.
+ */
+var myList = [1,2,3,4, "Hello", ["You", "Me"]]
+//Array items start at "0". You can use the index number to select specific items in the arrary.
+console.log(myList)
+console.log(myList[4]) // returns Hello
+//You can even use it to dig into nested arrays
+console.log(myList[5][1]) // returns Me
