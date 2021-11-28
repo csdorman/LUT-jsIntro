@@ -90,3 +90,13 @@ var myList2 = [1,2,3,4,5]
 for(var i = 0; i < myList2.length; i++) {
     console.log(myList2[i])
 }
+
+/*
+Intro to WHILE Loops
+ */
+var j = 0
+while (j < myList2.length) {
+    console.log(myList2[i])
+//Remember that while loops have no "built-in" increment (or decrement) operation. You MUST do that to end the loop.
+    i++
+}
