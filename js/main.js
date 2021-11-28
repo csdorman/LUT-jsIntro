@@ -98,5 +98,22 @@ var j = 0
 while (j < myList2.length) {
     console.log(myList2[i])
 //Remember that while loops have no "built-in" increment (or decrement) operation. You MUST do that to end the loop.
-    i++
+    j++
+}
+
+/*
+Intro to BREAKS (and a guessing game)
+ */
+alert("You have 10 guesses. Guess a number 1-10.")
+// Hardcoding answer (for now)
+var answer = 3;
+var guess = prompt("What's your guess?")
+// Iterate through each turn
+for (k = 0; k < 10; k++) {
+    if (answer == guess) {
+        alert("You got it right!")
+        break
+    } else {
+        guess = prompt("Nope. Guess again!")
+    }
 }
