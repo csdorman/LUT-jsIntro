@@ -117,3 +117,27 @@ for (k = 0; k < 10; k++) {
         guess = prompt("Nope. Guess again!")
     }
 }
+
+/*
+Intro to Functions
+ */
+
+//This is the function definition - it will not run until the function is called
+function firstFunc() {
+    console.log("Here is the first function EVER!")
+}
+
+//This is calling the function
+firstFunc()
+
+/*
+Using Arguments within Functions
+ */
+
+function secondFunc(arg1) {
+    console.log(arg1)
+}
+
+function thirdFunc(greeting, name) {
+    console.log(greeting, + " ", + name)
+}
